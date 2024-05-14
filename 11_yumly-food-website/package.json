@@ -1,0 +1,36 @@
+{
+  "name": "yumly",
+  "version": "1.0.0",
+  "description": "Food delivery App",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloksts/yumly.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aloksts/yumly/issues"
+  },
+  "homepage": "https://github.com/aloksts/yumly",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

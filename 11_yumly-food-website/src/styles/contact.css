@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
