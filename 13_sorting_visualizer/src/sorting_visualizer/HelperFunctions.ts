@@ -109,16 +109,3 @@ export function disableButtons(): void {
   rangeSlider.style.opacity = "0";
   rangeSlider.style.visibility = "hidden";
 }
-
-// ## Plays audio ## //
-// export function playAudio(myAudio: string): void {
-//   const audio = new Audio(myAudio);
-//   audio.preload = "auto";
-//   const playing = audio.play();
-//   playing.then(() => {}).catch(() => {});
-// }
-
-// // ## Plays the completed sound effect ## //
-// export function playCompletedSoundEffect(): void {
-//   playAudio(CompletedEffect);
-// }

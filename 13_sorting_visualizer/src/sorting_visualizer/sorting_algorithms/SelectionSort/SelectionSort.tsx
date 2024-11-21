@@ -18,13 +18,21 @@ const SelectionSort = (array: number[], animationSpeed: number): void => {
 
   for (let i = 0; i < animations.length; i += 6) {
     const comparingElement1: number =
-      typeof animations[i] === "number" ? animations[i] : 0;
+      typeof animations[i] === "number" ? (animations[i] as number) : 0;
     const comparingElement2: number =
-      typeof animations[i + 1] === "number" ? animations[i + 1] : 0;
-    const minIndexElement: number = animations[i + 2];
-    const doSwap: boolean = animations[i + 3];
-    const isFinalElement: boolean = animations[i + 4];
-    const finalElement: number = animations[i + 5];
+      typeof animations[i + 1] === "number" ? (animations[i + 1] as number) : 0;
+    const minIndexElement: number =
+      typeof animations[i + 2] === "number" ? (animations[i + 2] as number) : 0;
+    const doSwap: boolean =
+      typeof animations[i + 3] === "boolean"
+        ? (animations[i + 3] as boolean)
+        : false;
+    const isFinalElement: boolean =
+      typeof animations[i + 4] === "boolean"
+        ? (animations[i + 4] as boolean)
+        : false;
+    const finalElement: number =
+      typeof animations[i + 5] === "number" ? (animations[i + 5] as number) : 0;
 
     // Here, promise has been used to know when to Enable Buttons again after the setTimeout ends.
     const promise1 = new Promise<void>((resolve) => {

@@ -1,10 +1,11 @@
 import React from "react";
-import "./Header.css";
 
 const Header: React.FC = () => {
   return (
-    <div className="header">
-      <p id="animateText">Sorting Visualizer</p>
+    <div className="h-auto mt-2 flex justify-center items-center py-5 ">
+      <p className="text-white font-bold text-4xl text-center uppercase shadow-lg">
+        Sorting Visualizer
+      </p>
     </div>
   );
 };

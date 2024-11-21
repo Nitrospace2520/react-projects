@@ -11,7 +11,7 @@ import BubbleSort from "./sorting_algorithms/BubbleSort/BubbleSort";
 import SelectionSort from "./sorting_algorithms/SelectionSort/SelectionSort";
 import InsertionSort from "./sorting_algorithms/InsertionSort/InsertionSort";
 // .. STYLE .. //
-import "./SortingVisualizer.css";
+// import "./SortingVisualizer.css";
 // .. SOUNDS .. //
 
 const SortingVisualizer: React.FC = () => {
@@ -76,7 +76,7 @@ const SortingVisualizer: React.FC = () => {
   // ******************************************************************************* //
 
   return (
-    <div className="main-container">
+    <div className="min-h-screen bg-black text-white flex flex-col">
       {/* --------------------- HEADER : 8% Height --------------------- */}
       <Header />
 
